@@ -1,0 +1,14 @@
+[
+ {
+  "id": "1",
+  "title": "नमूना चित्र",
+  "date": "2026-10-13",
+  "image": "https://example.com/a.jpg"
+ },
+ {
+  "id": "2",
+  "title": "पुराना चित्र",
+  "date": "2026-10-01",
+  "image": "https://example.com/b.jpg"
+ }
+]
