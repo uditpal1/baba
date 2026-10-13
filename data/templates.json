@@ -1,0 +1,68 @@
+[
+ {
+  "id": "t1",
+  "title": "डिज़ाइन 1",
+  "image": "https://example.com/t1.jpg",
+  "frame": {
+   "x": 0.5,
+   "y": 0.35,
+   "r": 0.22
+  },
+  "date": "2026-10-13"
+ },
+ {
+  "id": "t2",
+  "title": "डिज़ाइन 2",
+  "image": "https://example.com/t2.jpg",
+  "frame": {
+   "x": 0.5,
+   "y": 0.35,
+   "r": 0.22
+  },
+  "date": "2026-10-13"
+ },
+ {
+  "id": "t3",
+  "title": "डिज़ाइन 3",
+  "image": "https://example.com/t3.jpg",
+  "frame": {
+   "x": 0.5,
+   "y": 0.35,
+   "r": 0.22
+  },
+  "date": "2026-10-13"
+ },
+ {
+  "id": "t4",
+  "title": "डिज़ाइन 4",
+  "image": "https://example.com/t4.jpg",
+  "frame": {
+   "x": 0.5,
+   "y": 0.35,
+   "r": 0.22
+  },
+  "date": "2026-10-01"
+ },
+ {
+  "id": "t5",
+  "title": "डिज़ाइन 5",
+  "image": "https://example.com/t5.jpg",
+  "frame": {
+   "x": 0.5,
+   "y": 0.35,
+   "r": 0.22
+  },
+  "date": "2026-10-01"
+ },
+ {
+  "id": "t6",
+  "title": "डिज़ाइन 6",
+  "image": "https://example.com/t6.jpg",
+  "frame": {
+   "x": 0.5,
+   "y": 0.35,
+   "r": 0.22
+  },
+  "date": "2026-10-01"
+ }
+]
