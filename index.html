@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>बाबा जी के साथ अपनी फोटो जोड़ें</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<main>
+<header class="hero"><div class="avatar"><img id="baba" alt="बाबा जी की फोटो"></div>
+<h1 id="babaName"></h1><p>बाबा जी के आशीर्वाद से अपनी फोटो जोड़ें।</p></header>
+<section class="card center" id="home">
+<h2>बाबा जी के साथ अपनी फोटो जोड़ें</h2>
+<p>अपनी पसंद का डिज़ाइन चुनें, अपनी फोटो जोड़ें और सुंदर तस्वीर बनाकर डाउनलोड करें।</p>
+<button class="btn" id="start">फोटो बनाना शुरू करें</button></section>
+<section class="card center"><div class="ph" id="exWrap"><img id="ex" alt="नमूना चित्र"><span>नमूना चित्र यहाँ दिखाई देगा</span></div>
+<p>ऐसा ही सुंदर चित्र आप भी बना सकते हैं।</p></section>
+<section class="card" id="gallerySec"><h2>अपना पसंदीदा डिज़ाइन चुनें</h2><div class="grid" id="tpls"></div></section>
+<section class="card" id="editor" hidden><h2>अपनी फोटो जोड़ें</h2>
+<canvas id="cv"></canvas>
+<input type="file" id="file" accept="image/jpeg,image/png,image/webp" hidden>
+<button class="btn" id="pick"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4M6 10l6-6 6 6M4 20h16"/></svg>मोबाइल से फोटो चुनें</button>
+<label class="lbl">ज़ूम <input type="range" id="zoom" min="1" max="3" step="0.01" value="1" aria-label="ज़ूम"></label>
+<p class="note">फोटो को उँगली से खिसकाकर सही जगह लाएँ।</p>
+<div class="row"><button class="btn wa" id="wa">WhatsApp पर भेजें</button><button class="btn" id="dl">डाउनलोड करें</button></div>
+<div class="row"><button class="btn ghost" id="back">पीछे जाएँ</button><button class="btn ghost" id="change">फोटो बदलें</button></div>
+<p class="err" id="edErr" role="alert"></p></section>
+<section class="card"><h2>आज के चित्र</h2><div class="grid" id="today"></div></section>
+<section class="card"><h2>पुराने चित्र</h2><div class="grid" id="older"></div></section>
+</main>
+<div class="modal" id="formModal" hidden><form class="card" id="form" novalidate>
+<h2>अपनी जानकारी भरें</h2>
+<label class="lbl">पूरा नाम<input id="fname" autocomplete="name" required></label>
+<label class="lbl">मोबाइल नंबर<input id="fphone" inputmode="numeric" maxlength="10" autocomplete="tel" required></label>
+<p class="err" id="fErr" role="alert"></p>
+<button class="btn" type="submit" id="fgo">आगे बढ़ें</button>
+<p class="note">आपकी जानकारी का उपयोग आपकी फोटो बनाने की सुविधा और आवश्यक सूचना के लिए किया जाएगा। आपका नाम, नंबर और विज़िट के समय आपका IP पता सूचना के उद्देश्य से Telegram पर भेजा जाता है। 5 दिन का सत्र केवल आपके ब्राउज़र में रहता है। आपकी बनाई फोटो स्थायी रूप से सहेजी नहीं जाती।</p>
+</form></div>
+<script src="assets/config.js"></script><script src="script.js"></script></body></html>
