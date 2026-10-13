@@ -1,11 +1,11 @@
 // ⚙️ यहाँ बदलें: नाम, फोटो, नमूना चित्र और वेबसाइट URL
 window.CONFIG = {
-  BABA_NAME: "बाबा जी",
-  BABA_PHOTO: "assets/baba-ji.jpg",            // या कोई direct image URL
-  EXAMPLE_URL: "https://example.com/example-poster.jpg", // PLACEHOLDER
+  BABA_NAME: "Premanand Ji Maharaj",
+  BABA_PHOTO: "https://iili.io/nWbitWB.md.jpg",            // या कोई direct image URL
+  EXAMPLE_URL: "https://iili.io/nWbt7Tb.jpg", // PLACEHOLDER
   // ⚠️ ये दोनों public हैं: कोई भी source देखकर आपका बोट इस्तेमाल कर सकता है
-  TELEGRAM_BOT_TOKEN: "YAHAN_BOT_TOKEN_DAALEIN",
-  TELEGRAM_CHAT_ID: "YAHAN_CHAT_ID_DAALEIN",
+  TELEGRAM_BOT_TOKEN: "8303657634:AAEy-hwtUxIei4SSW5CGrlmueCvZGZ2WmYE",
+  TELEGRAM_CHAT_ID: "6320680594",
   IP_NOTIFY: true,   // विज़िटर IP सूचना चालू/बंद
-  WEBSITE_URL: "https://your-site.pages.dev"   // PLACEHOLDER
+  WEBSITE_URL: "https://uditpal1.github.io/baba/"   // PLACEHOLDER
 };
