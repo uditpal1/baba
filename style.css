@@ -30,11 +30,10 @@ input[type=text],input:not([type]),input[type=range]{width:100%}
 
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px}.btn.wa{background:#12904a}
 
-/* ✨ फोटो के चारों ओर 3 लहरें: जितनी दूर जाएँ उतनी फीकी */
+/* ✨ बाबा जी की फोटो के चारों ओर 3 लहरें: जितनी दूर जाएँ उतनी फीकी, फोटो स्थिर */
 .hero{padding:18px 0 4px}
-.avatar{position:relative}
-.avatar img{position:relative;z-index:1}
-.avatar i{position:absolute;inset:0;border-radius:50%;border:2px solid #D4AF37;opacity:0;pointer-events:none;animation:bjRipple 3.6s ease-out infinite}
-.avatar i:nth-child(2){animation-delay:1.2s}.avatar i:nth-child(3){animation-delay:2.4s}
-@keyframes bjRipple{0%{transform:scale(1);opacity:.85}100%{transform:scale(2.2);opacity:0}}
+.avatar{position:relative;box-shadow:0 0 10px rgba(212,175,55,.35)}
+.avatar i{position:absolute;inset:-2px;border-radius:50%;border:2px solid #D4AF37;opacity:0;pointer-events:none;animation:bjRing 3.6s ease-out infinite}
+.avatar i:nth-of-type(2){animation-delay:1.2s}.avatar i:nth-of-type(3){animation-delay:2.4s}
+@keyframes bjRing{0%{transform:scale(1);opacity:.85}100%{transform:scale(1.9);opacity:0}}
 @media(prefers-reduced-motion:reduce){.avatar i{display:none}}
